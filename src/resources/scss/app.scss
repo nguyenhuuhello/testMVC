@@ -1,0 +1,19 @@
+@import 'variables';
+.hi {
+    color: red;
+    background-color: green;
+}
+
+h1 {
+    color: $red-color; //được tạo biến bên file variable
+}
+
+.form-search {
+    margin: 30px;
+}
+
+//Khoảng cách các thẻ khóa học
+.card-course-item
+{
+    margin: 20px;
+}

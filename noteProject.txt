@@ -1,0 +1,6 @@
+1. Phiên bản từ 4.6 của handlebars thì đã sửa bảo mật, vậy nên không thể truy cập vào DB và sử dụng
+this để lấy dữ liệu như thế này: https://handlebarsjs.com/examples/builtin-helper-each-block.html
+vì đây là những đối tượng mà DB tạo có thuộc tính phức tạp hơn
+
+Vì thế, khi ở controller trỏ vào DB để lấy dữ liệu, trước khi truyền sang views thì chúng ta
+nên xử lý trước

@@ -1,0 +1,4 @@
+{
+    "ext": "js json scss",
+    "comment": "lắng nghe những file trên khi chúng thay đổi khi chúng ta bấm lưu"
+}

@@ -1,0 +1,21 @@
+
+{{!-- Cách lấy data từ DB: https://handlebarsjs.com/guide/ --}}
+<div class="mt-4">
+    <div class="row">
+        {{!-- Sử dụng bootstrap cho các class định dạng sẵn: https://getbootstrap.com/docs/5.3/layout/grid/ --}}
+        {{!-- Với việc lặp thì sử dụng: https://handlebarsjs.com/guide/#evaluation-context --}}
+        {{!-- Với việc có bao nhiều document thì sẽ hiện thị bấy nhiêu --}}
+        {{#each courses}}
+        <div class="col-sm-6 col-lg-4">
+            <div class="card card-course-item">
+                <img src="{{img}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{name}}</h5>
+                    <p class="card-text">{{description}}</p>
+                    <a href="#" class="btn btn-primary">Submit</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
