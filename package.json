@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/index.js",
   "scripts": {
-    "start": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
     "commentForwatch": "cú pháp: node-sass option input output   https://www.npmjs.com/package/node-sass  Nó sẽ lắng nghe cho cả thư mục css",
     "watch": "node-sass --watch src/resources/scss/app.scss --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
